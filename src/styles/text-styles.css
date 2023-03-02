@@ -1,0 +1,63 @@
+/* H1 */
+h1 {
+    font-family: 'Object Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 67.34px;
+    line-height: 74px;
+  }
+  
+  /* H2 */
+  h2 {
+    font-family: 'Object Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50.52px;
+    line-height: 115%;
+  }
+  
+  /* H3 */
+  h3 {
+    font-family: 'Object Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37.9px;
+    line-height: 39px;
+  }
+  
+  /* H4 */
+  h4 {
+    font-family: 'Object Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28.43px;
+    line-height: 38px;
+  }
+  
+  /* H5 */
+  h5 {
+    font-family: 'Object Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.33px;
+    line-height: 144%;
+  }
+  
+  /* H6 */
+  h6 {
+    font-family: 'Object Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.5%;
+  }
+  
+  /* Larger */
+  .larger {
+    font-family: 'Object Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 88px;
+  }
+  
