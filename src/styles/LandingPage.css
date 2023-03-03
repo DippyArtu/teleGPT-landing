@@ -10,23 +10,49 @@
   background-color: #141313;
 }
 
-
-/* ################ LAYER 3 ################ */
-.gradient-image3 {
+.gradient-image4 {
   position: absolute;
-  width: 1827.23px;
-  height: 1132.83px;
-  left: -35px;
-  top: 2238.75px;
+  width: 2079.42px;
+  height: 1916.95px;
+  left: -23.75px;
+  top: 3442px;
 }
 
-.noise-image3 {
+.noise-image4 {
   position: absolute;
   width: 1728px;
-  height: 1254px;
+  height: 1600px;
   left: 0px;
-  top: 2185px;
-  background: url(../images/3-noise.png) center center / cover no-repeat, #D9D9D9;
+  top: 3351px;
+  background: url(../images/4-noise.png), #D9D9D9;
+  mix-blend-mode: overlay;
+  opacity: 1;
+}
+
+.gradient-image5 {
+  position: absolute;
+  width: 2213.66px;
+  height: 1719.02px;
+  left: -361px;
+  top: 4841px;
+}
+
+.plans-image {
+  position: absolute;
+  width: 1159px;
+  height: 1186px;
+  left: 488px;
+  top: 5122px;
+  background: url(../images/5-plans.png);
+}
+
+.noise-image5 {
+  position: absolute;
+  width: 1728px;
+  height: 1351px;
+  left: 0;
+  top: 4951px;
+  background: url(../images/5-noise.png);
   mix-blend-mode: overlay;
   opacity: 0.5;
 }

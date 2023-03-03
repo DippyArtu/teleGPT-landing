@@ -1,0 +1,34 @@
+.price-window-bg-3 {
+    position: absolute;
+    width: 276px;
+    height: 411px;
+    left: 440px;
+    top: 5485px;
+    background: #726833;
+    mix-blend-mode: color-dodge;
+    opacity: 0.5;
+    box-shadow: inset 13px 13px 55px #C5B420;
+    border-radius: 52px;
+  }
+  
+  .price-window-bg-4 {
+    position: absolute;
+    width: 302px;
+    height: 423px;
+    left: 440px;
+    top: 5486px;
+    background: #726833;
+    mix-blend-mode: color-dodge;
+    opacity: 0.5;
+    box-shadow: inset 13px 13px 55px #C5B420;
+    border-radius: 52px;
+  }
+  
+  .ai-explorer-text {
+    position: absolute;
+    width: 228px;
+    height: 314px;
+    left: 458px;
+    top: 5543px;
+  }
+  

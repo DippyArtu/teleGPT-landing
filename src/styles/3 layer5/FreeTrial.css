@@ -1,0 +1,33 @@
+.price-window-bg-1 {
+  position: absolute;
+  width: 276px;
+  height: 397px;
+  left: 113px;
+  top: 5375px;
+  background: #726833;
+  mix-blend-mode: color-dodge;
+  opacity: 0.5;
+  box-shadow: inset 13px 13px 55px #C5B420;
+  border-radius: 52px;
+}
+
+.price-window-bg-2 {
+  position: absolute;
+  width: 302px;
+  height: 409px;
+  left: 113px;
+  top: 5376px;
+  background: #726833;
+  mix-blend-mode: color-dodge;
+  opacity: 0.5;
+  box-shadow: inset 13px 13px 55px #C5B420;
+  border-radius: 52px;
+}
+
+.free-trial-text {
+  position: absolute;
+  width: 223.5px;
+  height: 309px;
+  left: 139px;
+  top: 5433px;
+}
