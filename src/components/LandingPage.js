@@ -11,7 +11,6 @@ import gradientImage5 from '../images/5-bg-gradient.png';
 import noiseImage5 from '../images/5-noise.png';
 
 
-
 function LandingPage() {
   return (
     <div className="landing-page">

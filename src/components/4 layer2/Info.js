@@ -11,9 +11,29 @@ import capsContent from '../../images/2-caps.svg';
 
 const Info = () => {
   const [content, setContent] = useState(botContent);
-  const handleBotClick = () => setContent(botContent);
-  const handleHowClick = () => setContent(howContent);
-  const handleCapsClick = () => setContent(capsContent);
+  const [fadeOut, setFadeOut] = useState(false);
+
+  const handleBotClick = () => {
+    setFadeOut(true);
+    setTimeout(() => {
+      setContent(botContent);
+      setFadeOut(false);
+    }, 550);
+  };
+  const handleHowClick = () => {
+    setFadeOut(true);
+    setTimeout(() => {
+      setContent(howContent);
+      setFadeOut(false);
+    }, 550);
+  };
+  const handleCapsClick = () => {
+    setFadeOut(true);
+    setTimeout(() => {
+      setContent(capsContent);
+      setFadeOut(false);
+    }, 550);
+  };
 
   return (
     <div className="info">
@@ -23,7 +43,7 @@ const Info = () => {
         <img src={capsBtn} alt="caps-btn" className="menu-button" onClick={handleCapsClick} />
       </div>
       <div className="content-container">
-        <img src={content} alt="content" className="content-image" />
+        <img src={content} alt="content" className={`content-image ${fadeOut ? 'fade-out' : 'fade-in'}`} />
       </div>
     </div>
   );

@@ -17,18 +17,10 @@ mix-blend-mode: overlay;
 opacity: 0.5;
 }
 
-.features-image2 {
+.features-image3 {
     position: absolute;
     width: 1612.22px;
     height: 1248.46px;
     left: 67.8px;
     top: 2186px;
-}
-
-.intro-image2 {
-    position: absolute;
-    width: 650px;
-    height: 1138px;
-    left: 144px;
-    top: 1105px;
 }

@@ -8,26 +8,32 @@
     top: 1301px;
   }
   
-  /* button-container */
+  /* Button container */
   
   .button-container {
-    position: absolute;
     position: absolute;
     width: 356px;
     height: 19px;
     left: 50px;
     top: -50px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
   }
-  
+
   .button-container img:hover {
     opacity: 0.8;
-    transform: scale(1.05);
+    transform: scale(1.08);
+  }
+
+  .menu-button {
+    width: 63px;
+    height: 19px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
   }
   
-  
-  .menu-button {
+  .menu-button:hover {
     cursor: pointer;
+    opacity: 0.7;
   }
   
   /* bot-btn */
@@ -59,9 +65,8 @@
     left: 262px;
     top: 0px;
   }
-  
+
   /* content-container */
-  
   .content-container {
     position: absolute;
     width: 599px;
@@ -71,43 +76,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }  
+  } 
 
-  .content {
-    position: absolute;
-    width: 562px;
-    height: 512px;
-  }
+.content-image {
+  position: absolute;
+  width: 562px;
+  height: auto;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
 
+.fade-in {
+  opacity: 1;
+}
 
-/* bot content */
-
-  .content-image:nth-child(1) {
-    position: absolute;
-    width: 562px;
-    height: 512px;
-    left: 0px;
-    top: 0px;
-  }
-  
-  
-  /* how content */
-  
-  .content-image:nth-child(2) {
-    position: absolute;
-    width: 562px;
-    height: 476px;
-    left: 0px;
-    top: 0px;
-  }
-  
-  /* caps content */
-  
-  .content-image:nth-child(3) {
-    position: absolute;
-    width: 599px;
-    height: 478px;
-    left: 0px;
-    top: 0px;
-  }
-  
+.hidden {
+  display: none;
+}
