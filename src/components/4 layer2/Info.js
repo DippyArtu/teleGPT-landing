@@ -13,26 +13,28 @@ const Info = () => {
   const [content, setContent] = useState(botContent);
   const [fadeOut, setFadeOut] = useState(false);
 
+  const transitionLength = 300;
+
   const handleBotClick = () => {
     setFadeOut(true);
     setTimeout(() => {
       setContent(botContent);
       setFadeOut(false);
-    }, 550);
+    }, transitionLength);
   };
   const handleHowClick = () => {
     setFadeOut(true);
     setTimeout(() => {
       setContent(howContent);
       setFadeOut(false);
-    }, 550);
+    }, transitionLength);
   };
   const handleCapsClick = () => {
     setFadeOut(true);
     setTimeout(() => {
       setContent(capsContent);
       setFadeOut(false);
-    }, 550);
+    }, transitionLength);
   };
 
   return (
