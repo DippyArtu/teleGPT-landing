@@ -1,0 +1,36 @@
+.neural-networks {
+    position: absolute;
+    width: 1516px;
+    height: 980px;
+    left: 237px;
+    top: 6247px;
+}
+
+.neural-networks-text {
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 88px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.gradient6 {
+    position: absolute;
+    width: 2690.78px;
+    height: 2672.6px;
+    left: -421.39px;
+    top: 5770.5px;
+}
+
+.noise6 {
+    position: absolute;
+    width: 1728px;
+    height: 1749px;
+    left: 0px;
+    top: 5958px;
+    background: url(../../images/6-noise.png), #D9D9D9;
+    mix-blend-mode: overlay;
+    opacity: 1;
+}
