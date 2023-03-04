@@ -29,7 +29,7 @@ function LandingPage() {
       {/* ################## LAYER 5 ################# */}
       <img src={gradientImage5} alt="5-bg-gradient" className="gradient-image5" />
       <div className="plans-image"></div>
-      <img src={noiseImage5} alt="noise-image5" className="noise-image5" />
+      <img src={noiseImage5} alt="5-noise" className="noise-image5" />
       <Prices />
       
 

@@ -54,7 +54,5 @@
   top: 4951px;
   background: url(../images/5-noise.png);
   mix-blend-mode: overlay;
-  opacity: 1;
+  opacity: 0.5;
 }
-
-
