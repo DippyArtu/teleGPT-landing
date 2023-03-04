@@ -1,79 +1,113 @@
-.info-container {
-    position: relative;
-  }
-  
-  .button-container {
+/* Info */
+
+.info {
     position: absolute;
-    width: 356px;
-    height: 19px;
-    left: 1115px;
+    width: 599px;
+    height: 621px;
+    left: 1014px;
     top: 1301px;
   }
   
-  .menu-button {
+  /* button-container */
+  
+  .button-container {
     position: absolute;
+    position: absolute;
+    width: 356px;
+    height: 19px;
+    left: 50px;
+    top: -50px;
+    transition: all 0.3s ease;
+  }
+  
+  .button-container img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+  
+  
+  .menu-button {
     cursor: pointer;
   }
   
-  .menu-button.active {
-    filter: grayscale(0%);
-  }
-  
-  .menu-button:not(.active) {
-    filter: grayscale(100%);
-  }
+  /* bot-btn */
   
   .menu-button:nth-child(1) {
+    position: absolute;
     width: 63px;
     height: 19px;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
   }
+  
+  /* how-btn */
   
   .menu-button:nth-child(2) {
+    position: absolute;
     width: 104px;
     height: 19px;
-    left: 119px;
-    top: 0;
+    left: 117px;
+    top: 0px;
   }
   
+  /* caps-btn */
+  
   .menu-button:nth-child(3) {
+    position: absolute;
     width: 94px;
     height: 19px;
-    left: 267px;
-    top: 0;
+    left: 262px;
+    top: 0px;
   }
+  
+  /* content-container */
   
   .content-container {
     position: absolute;
     width: 599px;
     height: 512px;
-    left: 1014px;
-    top: 1410px;
-    overflow: hidden;
-  }
-  
-  .content-image {
+    left: 0px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+
+  .content {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .content-image:nth-child(1) {
     width: 562px;
     height: 512px;
   }
-  
-  .content-image:nth-child(2) {
+
+
+/* bot content */
+
+  .content-image:nth-child(1) {
+    position: absolute;
     width: 562px;
-    height: 476px;
-    left: 1014px;
-    top: 1410px;
+    height: 512px;
+    left: 0px;
+    top: 0px;
   }
   
+  
+  /* how content */
+  
+  .content-image:nth-child(2) {
+    position: absolute;
+    width: 562px;
+    height: 476px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  /* caps content */
+  
   .content-image:nth-child(3) {
+    position: absolute;
     width: 599px;
     height: 478px;
+    left: 0px;
+    top: 0px;
   }
   

@@ -1,32 +1,29 @@
 import React, { useState } from 'react';
 import '../../styles/4 layer2/Info.css';
 
-import botImg from '../../images/2-bot.svg';
-import howImg from '../../images/2-how.svg';
-import capsImg from '../../images/2-caps.svg';
-import botBtnImg from '../../images/2-bot-btn.svg';
-import howBtnImg from '../../images/2-how-btn.svg';
-import capsBtnImg from '../../images/2-caps-btn.svg';
+import botBtn from '../../images/2-bot-btn.svg';
+import howBtn from '../../images/2-how-btn.svg';
+import capsBtn from '../../images/2-caps-btn.svg';
+import botContent from '../../images/2-bot.svg';
+import howContent from '../../images/2-how.svg';
+import capsContent from '../../images/2-caps.svg';
 
 
 const Info = () => {
-  const [activeTab, setActiveTab] = useState('bot');
-
-  const handleTabClick = (tab) => {
-    setActiveTab(tab);
-  };
+  const [content, setContent] = useState(botContent);
+  const handleBotClick = () => setContent(botContent);
+  const handleHowClick = () => setContent(howContent);
+  const handleCapsClick = () => setContent(capsContent);
 
   return (
-    <div className="info-container">
+    <div className="info">
       <div className="button-container">
-        <img src={botBtnImg} alt="bot button" className={`menu-button ${activeTab === 'bot' ? 'active' : ''}`} onClick={() => handleTabClick('bot')} />
-        <img src={howBtnImg} alt="how button" className={`menu-button ${activeTab === 'how' ? 'active' : ''}`} onClick={() => handleTabClick('how')} />
-        <img src={capsBtnImg} alt="caps button" className={`menu-button ${activeTab === 'caps' ? 'active' : ''}`} onClick={() => handleTabClick('caps')} />
+        <img src={botBtn} alt="bot-btn" className="menu-button" onClick={handleBotClick} />
+        <img src={howBtn} alt="how-btn" className="menu-button" onClick={handleHowClick} />
+        <img src={capsBtn} alt="caps-btn" className="menu-button" onClick={handleCapsClick} />
       </div>
       <div className="content-container">
-        {activeTab === 'bot' && <img src={botImg} alt="bot content" className="content-image" />}
-        {activeTab === 'how' && <img src={howImg} alt="how content" className="content-image" />}
-        {activeTab === 'caps' && <img src={capsImg} alt="caps content" className="content-image" />}
+        <img src={content} alt="content" className="content-image" />
       </div>
     </div>
   );
