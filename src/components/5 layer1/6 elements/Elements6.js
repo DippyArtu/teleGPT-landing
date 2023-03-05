@@ -3,7 +3,6 @@ import BotImage6 from './BotImage6';
 
 import gradImage6 from '../../../images/6-grad 2.png';
 import noiseImage6 from '../../../images/6-noise.png';
-import transitionImage4_5 from '../../../images/4-5-transition.png';
 
 import '../../../styles/5 layer1/Elements6.css';
 
@@ -25,7 +24,6 @@ function Elements6() {
         <div className="welcome-container">
             <h1 className="welcome-text">Welcome</h1>
         </div>
-        <img src={transitionImage4_5} alt="transition4-5" className="transition4-5" />
     </div>
     );
   }

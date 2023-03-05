@@ -13,7 +13,7 @@ const Info = () => {
   const [content, setContent] = useState(botContent);
   const [fadeOut, setFadeOut] = useState(false);
 
-  const transitionLength = 300;
+  const transitionLength = 350;
 
   const handleBotClick = () => {
     setFadeOut(true);
