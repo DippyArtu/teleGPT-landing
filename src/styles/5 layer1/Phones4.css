@@ -1,0 +1,26 @@
+.phone1 {
+    position: absolute;
+    width: 405px;
+    height: 824px;
+    left: 1187px;
+    top: 3904px;
+    filter: drop-shadow(32px 29px 10px rgba(22, 21, 21, 0.25));
+}
+
+.phone2 {
+    position: absolute;
+    width: 406px;
+    height: 824px;
+    left: 619px;
+    top: 4127px;
+    filter: drop-shadow(32px 29px 10px rgba(22, 21, 21, 0.25));
+}
+
+.phone3 {
+    position: absolute;
+    width: 406px;
+    height: 824px;
+    left: 49px;
+    top: 3905px;
+    filter: drop-shadow(32px 29px 10px rgba(22, 21, 21, 0.25));
+}

@@ -1,0 +1,16 @@
+.pricing5 {
+    position: absolute;
+    width: 479px;
+    height: 107px;
+    left: 99px;
+    top: 5018px;
+
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 74px;
+    /* or 58% */
+
+    color: #FFFFFF;
+}

@@ -1,12 +1,10 @@
 import React from 'react';
-
-import '../styles/LandingPage.css';
-
 import Layer3 from './1 layer3/Layer3';
 import Prices from './3 layer5/Prices';
 import Layer2 from './4 layer2/Layer2';
 import Layer1 from './5 layer1/Layer1';
 
+import '../styles/LandingPage.css';
 import gradientImage4 from '../images/4-bg-gradient.png';
 import noiseImage4 from '../images/4-noise.png'
 import gradientImage5 from '../images/5-bg-gradient.png';
