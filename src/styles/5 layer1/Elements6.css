@@ -18,11 +18,11 @@
 }
 
 .gradient6 {
-    position: absolute;
-    width: 2690.78px;
-    height: 2672.6px;
-    left: -521.39px;
-    top: 5670.5px;
+  position: absolute;
+  width: 2303.8px;
+  height: 2672.6px;
+  left: -17.4px;
+  top: 5875.5px;
 }
 
 .noise6 {
@@ -30,7 +30,7 @@
     width: 1728px;
     height: 1749px;
     left: 0px;
-    top: 5958px;
+    top: 6047px;
     background: url(../../images/6-noise.png), #D9D9D9;
     mix-blend-mode: overlay;
     opacity: 0.5;

@@ -4,6 +4,51 @@
     height: 1188.53px;
     left: -155px;
     top: 3074px;
-    background: #C83206;
     filter: blur(100px);
+}
+
+.transition-noise3-4 {
+    position: absolute;
+    width: 1728px;
+    height: 1536px;
+    left: 0px;
+    top: 2885px;
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+}
+
+.limits-text3-4{
+    position: absolute;
+    width: 350px;
+    height: 58px;
+    left: 1268px;
+    top: 3132px;
+
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50.52px;
+    line-height: 52px;
+
+    color: #FFFFFF;
+}
+
+.chatting-text3-4{
+    position: absolute;
+    width: 955px;
+    height: 344px;
+    left: 121px;
+    top: 3395px;
+
+    /* H2 */
+
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50.52px;
+    line-height: 115%;
+    /* or 58px */
+
+
+    color: #FFFFFF;
 }
