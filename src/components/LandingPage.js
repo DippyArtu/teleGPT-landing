@@ -8,8 +8,10 @@ import Layer2 from './4 layer2/Layer2';
 import Layer1 from './5 layer1/Layer1';
 
 import gradientImage4 from '../images/4-bg-gradient.png';
+import noiseImage4 from '../images/4-noise.png'
 import gradientImage5 from '../images/5-bg-gradient.png';
 import noiseImage5 from '../images/5-noise.png';
+import plansImage5 from '../images/5-plans.png';
 
 
 function LandingPage() {
@@ -23,13 +25,13 @@ function LandingPage() {
 
       {/* ################## LAYER 4 ################# */}
       <img src={gradientImage4} alt="4-bg-gradient" className="gradient-image4" />
-      <div className="noise-image4"></div>
+      <img src={noiseImage4} alt="noise-image4" className="noise-image4" />
       
 
       {/* ################## LAYER 5 ################# */}
-      <img src={gradientImage5} alt="5-bg-gradient" className="gradient-image5" />
-      <div className="plans-image"></div>
-      <img src={noiseImage5} alt="5-noise" className="noise-image5" />
+      <img src={gradientImage5} alt="bg-gradient5" className="gradient-image5" />
+      <img src={plansImage5} alt="plans-image5" className="plans-image5" />
+      <img src={noiseImage5} alt="noise5" className="noise-image5" />
       <Prices />
       
 

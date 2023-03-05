@@ -16,7 +16,7 @@ function Layer2() {
     return (
       <>
         <img src={bgGradient2} alt="bg-gradient2" className="bg-gradient2" />
-        <img src={noiseImage2} alt="noise-image5" className="noise-image5" />
+        <img src={noiseImage2} alt="noise-image2" className="noise-image2" />
         <img src={featuresImage3} alt="features-image3" className="features-image3" />
         <Features />
         <Button image={buttonImage} width="289px" height="63px" left="1138px" top="1990px" />

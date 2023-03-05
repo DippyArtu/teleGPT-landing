@@ -1,9 +1,10 @@
 .neural-networks {
     position: absolute;
-    width: 1516px;
-    height: 980px;
-    left: 237px;
-    top: 6247px;
+    width: 1198px;
+    height: 1336px;
+    left: 555px;
+    top: 6180px;
+
 }
 
 .neural-networks-text {
@@ -20,8 +21,8 @@
     position: absolute;
     width: 2690.78px;
     height: 2672.6px;
-    left: -421.39px;
-    top: 5770.5px;
+    left: -521.39px;
+    top: 5670.5px;
 }
 
 .noise6 {
@@ -32,5 +33,58 @@
     top: 5958px;
     background: url(../../images/6-noise.png), #D9D9D9;
     mix-blend-mode: overlay;
-    opacity: 1;
+    opacity: 0.5;
+}
+
+.powered-by {
+    position: absolute;
+    width: 315px;
+    height: 51px;
+    left: 707px;
+    top: 7638px;
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28.43px;
+    line-height: 38px;
+    color: #FFFFFF;
+  }
+  
+  .powered-by a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .powered-by a:hover {
+    text-decoration: underline;
+  }
+
+  .welcome-container {
+  position: absolute;
+  width: 1291px;
+  height: 207px;
+  left: 39px;
+  top: 6582px;
+}
+
+.welcome-text {
+  font-family: 'Akira Expanded';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 176px;
+  line-height: 202px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+
+.transition4-5 {
+    position: absolute;
+    width: 2067.77px;
+    height: 500.74px;
+    left: -215px;
+    top: 4732.11px;
+
+    background: #C83206;
+    box-shadow: inset 47px 114px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(75px);
 }

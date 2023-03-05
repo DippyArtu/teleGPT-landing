@@ -1,0 +1,36 @@
+.bot-link {
+  position: absolute;
+  width: 421px;
+  height: 562px;
+  left: 654px;
+  top: 6958px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bot-image-container {
+  position: relative;
+  width: 421px;
+  height: 562px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bot-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bot-image-container:hover {
+  transform: scale(1.05);
+}
+
+.bot-link:hover .bot-image {
+  cursor: pointer;
+}

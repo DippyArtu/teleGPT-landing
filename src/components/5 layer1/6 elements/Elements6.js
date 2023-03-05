@@ -1,7 +1,9 @@
 import React from 'react';
+import BotImage6 from './BotImage6';
 
-import gradImage6 from '../../../images/6-grad.png';
+import gradImage6 from '../../../images/6-grad 2.png';
 import noiseImage6 from '../../../images/6-noise.png';
+import transitionImage4_5 from '../../../images/4-5-transition.png';
 
 import '../../../styles/5 layer1/Elements6.css';
 
@@ -15,6 +17,15 @@ function Elements6() {
         </div>
         <img src={gradImage6} alt="gradient6" className="gradient6" />
         <img src={noiseImage6} alt="noise6" className="noise6" />
+        <BotImage6 />
+        <div className="powered-by">
+            <span>powered by </span>
+            <a href="https://defimoon.org" target="_blank" rel="noopener noreferrer"><b>defimoon</b></a>
+        </div>
+        <div className="welcome-container">
+            <h1 className="welcome-text">Welcome</h1>
+        </div>
+        <img src={transitionImage4_5} alt="transition4-5" className="transition4-5" />
     </div>
     );
   }
