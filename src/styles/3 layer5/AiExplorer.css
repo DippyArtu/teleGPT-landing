@@ -2,33 +2,34 @@
     position: absolute;
     width: 276px;
     height: 411px;
-    left: 440px;
+    left: 363px;
     top: 5485px;
-    background: #726833;
     mix-blend-mode: color-dodge;
     opacity: 0.5;
     box-shadow: inset 13px 13px 55px #C5B420;
     border-radius: 52px;
+    transform: scale(0.85);
   }
   
   .price-window-bg-4 {
     position: absolute;
     width: 302px;
     height: 423px;
-    left: 440px;
-    top: 5486px;
-    background: #726833;
+    left: 361px;
+    top: 5484px;
     mix-blend-mode: color-dodge;
     opacity: 0.5;
     box-shadow: inset 13px 13px 55px #C5B420;
     border-radius: 52px;
+    transform: scale(0.85);
   }
   
   .ai-explorer-text {
     position: absolute;
     width: 228px;
     height: 314px;
-    left: 458px;
+    left: 386px;
     top: 5543px;
+    transform: scale(0.85);
   }
   

@@ -19,7 +19,7 @@ function Layer2() {
         <img src={noiseImage2} alt="noise-image2" className="noise-image2" />
         <img src={featuresImage3} alt="features-image3" className="features-image3" />
         <Features />
-        <Button image={buttonImage2} width="289px" height="63px" left="1138px" top="1990px" />
+        <Button image={buttonImage2} width="289px" height="63px" left="970px" top="1990px" />
         <Info />
       </>
     );

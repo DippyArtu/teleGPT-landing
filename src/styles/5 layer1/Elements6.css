@@ -1,7 +1,8 @@
 .neural-networks {
     position: absolute;
-    width: 1198px;
-    height: 1336px;
+    width: 100%;
+    height: auto;
+    max-width: 1198px;
     left: 555px;
     top: 6180px;
 

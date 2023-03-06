@@ -1,0 +1,45 @@
+.gradient-image3 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  max-width: 1827.23px;
+  top: 2238.75px;
+}
+
+.noise-image3 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  max-width: 1728pxpx;
+  left: 0px;
+  top: 2371px;
+  background: #D9D9D9;
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+}
+
+.tagline-container {
+  position: absolute;
+  width: 951px;
+  height: 690px;
+  left: 40px;
+  top: 2342px;
+
+  mix-blend-mode: soft-light;
+  opacity: 0.9;
+}
+
+.tagline3 {
+  position: absolute;
+  font-family: 'Akira Expanded';
+  font-style: normal;
+
+  font-weight: 800;
+  font-size: 176px;
+  line-height: 149px;
+
+  color: #FFFFFF;
+  mix-blend-mode: soft-light;
+  opacity: 1;
+  }
+  

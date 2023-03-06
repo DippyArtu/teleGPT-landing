@@ -1,8 +1,11 @@
 .landing-page {
   width: 100%;
   height: 100%;
-  max-width: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .landing-page__background {
@@ -13,18 +16,18 @@
 
 .gradient-image4 {
   position: absolute;
-  width: 2079.42px;
-  height: 1916.95px;
-  left: -23.75px;
+  width: 100%;
+  height: auto;
+  max-width: 2079.42px;
   top: 3442px;
 }
 
 .noise-image4 {
   position: absolute;
-  width: 1728px;
-  height: 1600px;
-  left: 0px;
-  top: 3440px;
+  width: 100%;
+  height: auto;
+  max-width: 1728px;
+  top: 3468px;
   background: #D9D9D9;
   mix-blend-mode: overlay;
   opacity: 0.5;
@@ -32,26 +35,28 @@
 
 .gradient-image5 {
   position: absolute;
-  width: 2213.66px;
-  height: 1719.02px;
-  left: -361px;
+  width: 100%;
+  height: auto;
+  max-width: 2213.66px;
   top: 4841px;
 }
 
 .plans-image5 {
   position: absolute;
-  width: 1159px;
-  height: 1246px;
-  left: 488px;
+  width: 100%;
+  height: auto;
+  max-width: 1159px;
+  left: 373px;
   top: 5121px;
+  transform: scale(0.85);
 }
 
 .noise-image5 {
   position: absolute;
-  width: 1728px;
-  height: 1007px;
-  left: 0;
-  top: 5040px;
+  width: 100%;
+  height: 1167px;
+  max-width: 1728px;
+  top: 4868px;
   background: #D9D9D9;
   mix-blend-mode: overlay;
   opacity: 0.5;
