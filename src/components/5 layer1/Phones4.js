@@ -8,7 +8,7 @@ import Phone3 from '../../images/4-iphone3.png';
 
 function Phones4() {
     return (
-      <div>
+      <div className='phones-container'>
         <img src={Phone1} alt="phone1" className="phone1" />
         <img src={Phone2} alt="phone2" className="phone2" />
         <img src={Phone3} alt="phone3" className="phone3" />

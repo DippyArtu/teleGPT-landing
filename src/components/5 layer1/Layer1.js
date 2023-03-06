@@ -14,12 +14,12 @@ function Layer1() {
     return (
       <div>
         <Elements6 />
-        {/* <img src={transitionImage4_5} alt="transition4-5" className="transition4-5" /> */}
-        {/* <Transition34 /> */}
-        {/* <Phones4 /> */}
-        {/* <Button image={buttonImage4} width="159px" height="65px" left="741px" top="3860px" /> */}
-        {/* <Elements5 /> */}
-        {/* <Elements1 /> */}
+        <img src={transitionImage4_5} alt="transition4-5" className="transition4-5" />
+        <Transition34 />
+        <Phones4 />
+        <Button image={buttonImage4} width="159px" height="65px" left="680px" top="3900px" />
+        <Elements5 />
+        <Elements1 />
       </div>
     );
   }

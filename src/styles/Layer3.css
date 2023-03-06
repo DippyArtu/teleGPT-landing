@@ -1,9 +1,9 @@
 .gradient-image3 {
   position: absolute;
   width: 100%;
-  height: auto;
-  max-width: 1827.23px;
-  top: 2238.75px;
+  height: 1442px;
+  max-width: 2101.8px;
+  top: 2029px;
 }
 
 .noise-image3 {
@@ -23,7 +23,7 @@
   width: 951px;
   height: 690px;
   left: 40px;
-  top: 2342px;
+  top: 2252px;
 
   mix-blend-mode: soft-light;
   opacity: 0.9;

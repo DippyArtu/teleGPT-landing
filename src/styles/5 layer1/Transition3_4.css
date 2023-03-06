@@ -1,16 +1,18 @@
 .transition-image3-4 {
     position: absolute;
-    width: 2138.87px;
-    height: 1188.53px;
-    left: -155px;
+    width: 100%;
+    height: 1167px;
+    max-width: 2138.87px;
+    left: 0px;
     top: 3074px;
     filter: blur(100px);
 }
 
 .transition-noise3-4 {
     position: absolute;
-    width: 1728px;
-    height: 1536px;
+    width: 100%;
+    height: 2520px;
+    max-width: 1728px;
     left: 0px;
     top: 2885px;
     mix-blend-mode: overlay;
@@ -19,9 +21,10 @@
 
 .limits-text3-4{
     position: absolute;
-    width: 350px;
-    height: 58px;
-    left: 1268px;
+    width: 100%;
+    height: 2520px;
+    max-width: 350px;
+    left: 1113px;
     top: 3132px;
 
     font-family: 'Object Sans';

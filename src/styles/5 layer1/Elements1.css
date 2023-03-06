@@ -1,15 +1,17 @@
 .bg-gradient-1 {
     position: absolute;
-    width: 1728px;
-    height: 1117px;
+    width: 100%;
+    height: auto;
+    max-width: 1728px;
     left: 0px;
     top: 0px;
 }
 
 .hero-1 {
     position: absolute;
-    width: 904px;
-    height: 1097px;
-    left: 741px;
+    width: 100%;
+    height: auto;
+    max-width: 904px;
+    left: 607px;
     top: 0px;
 }

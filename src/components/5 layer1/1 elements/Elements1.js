@@ -14,7 +14,7 @@ function Elements1() {
         <img src={heroImage1} alt="hero-1" className="hero-1" />
 
 
-        <Button image={buttonImage4} width="159px" height="65px" left="741px" top="3860px" />
+        {/* <Button image={buttonImage4} width="159px" height="65px" left="741px" top="3860px" /> */}
       </div>
     );
   }
