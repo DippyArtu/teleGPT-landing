@@ -16,25 +16,31 @@ const Info = () => {
   const transitionLength = 350;
 
   const handleBotClick = () => {
-    setFadeOut(true);
-    setTimeout(() => {
-      setContent(botContent);
-      setFadeOut(false);
-    }, transitionLength);
+    if (content != botContent) {
+      setFadeOut(true);
+      setTimeout(() => {
+        setContent(botContent);
+        setFadeOut(false);
+      }, transitionLength);
+    }
   };
   const handleHowClick = () => {
-    setFadeOut(true);
-    setTimeout(() => {
-      setContent(howContent);
-      setFadeOut(false);
-    }, transitionLength);
+    if (content != howContent) {
+      setFadeOut(true);
+      setTimeout(() => {
+        setContent(howContent);
+        setFadeOut(false);
+      }, transitionLength);
+    }
   };
   const handleCapsClick = () => {
-    setFadeOut(true);
-    setTimeout(() => {
-      setContent(capsContent);
-      setFadeOut(false);
-    }, transitionLength);
+    if (content != capsContent) {
+      setFadeOut(true);
+      setTimeout(() => {
+        setContent(capsContent);
+        setFadeOut(false);
+      }, transitionLength);
+    }
   };
 
   return (

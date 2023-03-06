@@ -10,10 +10,21 @@
 .hero-1 {
     position: absolute;
     width: 100%;
-    height: auto;
-    max-width: 904px;
-    left: 607px;
+    height: 1129px;
+    max-width: 876px;
+    left: 635px;
     top: 0px;
+    animation: fadeInLeft 1.5s ease-in-out 1s both;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .nosie-1 {
@@ -22,9 +33,85 @@
     height: auto;
     max-width: 1728px;
     left: 0px;
-    top: 0px;
+    top: -38px;
 
     background: url(../../images/1-noise.png), #D9D9D9;
     mix-blend-mode: overlay;
-    opacity: 0.7;
+}
+
+.logo {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 283px;
+    left: -17px;
+    top: 22px;
+    transform: scale(0.7);
+    animation: fadeInDown 2s ease-in-out 0.5s both;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: scale(0.7) translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(0.7);
+    }
+}
+
+
+.hero-section1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 583px;
+    left: -35px;
+    top: -46px;
+    animation: fadeInRight 1s ease-in-out 0.5s both;
+}
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: scale(0.8) translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(0.8);
+    }
+}
+
+.future-text1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 583px;
+    left: 124px;
+    top: 417px;
+
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 67.34px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+.assistant-text1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 333px;
+    left: 124px;
+    top: 618px;
+
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28.43px;
+    line-height: 45px;
+    color: #FFFFFF;
 }
