@@ -1,19 +1,21 @@
 .bot-link {
   position: absolute;
-  width: 421px;
-  height: 562px;
-  left: 654px;
+  width: 100%;
+  height: auto;
+  max-width: 421px;
+  left: 50%;
   top: 6958px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transform: translate(-50%, 0) scale(0.7);
 }
 
 .bot-image-container {
   position: relative;
   width: 421px;
-  height: 562px;
+  height: 662px;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
 }
